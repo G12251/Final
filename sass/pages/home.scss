@@ -162,7 +162,7 @@
   .ap-tab {
     padding-bottom: 50px;
     &-list {
-      @include mini.df(center, center, none);
+      @include mini.df(center, center, none, wrap);
       gap: 10px;
       flex-wrap: wrap;
       .ap-tab-list{
@@ -380,6 +380,7 @@
   padding: 130px 0;
   .galery_content {
     @include mini.dg(35% 65%, 64px);
+    overflow-x: hidden;
     &_left {
       padding-left: 30px;
       h5 {
