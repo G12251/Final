@@ -1,0 +1,1168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final</title>
+    <link rel="stylesheet" href="./sass/bootstrap/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/home.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md fixed-top navigator">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="./sass/images/home/logo.svg" alt="logo-1"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              <img src="./sass/images/home/logo.svg" alt="logo " />
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul
+              class="navbar-nav justify-content-end flex-grow-1 pe-3 nav_content"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item login_btn">
+                <a class="nav-link" href="#">Log in</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header class="header_">
+      <div class="header_content container">
+        <div class="header_content_left">
+          <h4>Chase the new Flavour</h4>
+          <h1>The key to Fine dining</h1>
+          <p>
+            Sit tellus lobortis sed senectus vivamus molestie. Condimentum
+            volutpat morbi facilisis quam scelerisque sapien. Et, penatibus
+            aliquam amet tellus
+          </p>
+          <a href="#">Explore Menu</a>
+        </div>
+        <div class="header_content_right">
+          <img src="./sass/images/home/header-dining.png" alt="header-dining" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="popular_dishes">
+        <div class="container">
+          <div class="carousel-buttons">
+            <div class="carousel_header"><h1>Popular Dishes</h1></div>
+            <div class="carousel_header_btn">
+              <button
+                class="btn prev-button"
+                href="#myCarousel"
+                data-slide="prev"
+              >
+                <i class="bi bi-chevron-left"></i>
+              </button>
+
+              <button
+                class="btn next-button"
+                href="#myCarousel"
+                data-slide="next"
+              >
+                <i class="bi bi-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <div id="myCarousel" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="carousel_item_content_full">
+                  <div class="carousel_item_content">
+                    <span
+                      ><img
+                        src="./sass/images/home/dishes-1.png"
+                        alt="dishes-1"
+                    /></span>
+                    <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                    <span
+                      ><img src="./sass/images/home/stars.png" alt="stars"
+                    /></span>
+                    <h5>$12.00</h5>
+                  </div>
+
+                  <div class="carousel_item_content">
+                    <span
+                      ><img
+                        src="./sass/images/home/dishes-2.png"
+                        alt="dishes-2"
+                    /></span>
+                    <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                    <span
+                      ><img src="./sass/images/home/stars.png" alt="stars"
+                    /></span>
+                    <h5>$12.00</h5>
+                  </div>
+
+                  <div class="carousel_item_content">
+                    <span
+                      ><img
+                        src="./sass/images/home/dishes-3.png"
+                        alt="dishes-3"
+                    /></span>
+                    <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                    <span
+                      ><img src="./sass/images/home/stars.png" alt="stars"
+                    /></span>
+                    <h5>$12.00</h5>
+                  </div>
+                  <div class="carousel_item_content">
+                    <span
+                      ><img
+                        src="./sass/images/home/dishes-4.png"
+                        alt="dishes-4"
+                    /></span>
+                    <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                    <span
+                      ><img src="./sass/images/home/stars.png" alt="stars"
+                    /></span>
+                    <h5>$12.00</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel_item_content_full">
+                  <div class="carousel_item_content">
+                    <span
+                      ><img
+                        src="./sass/images/home/dishes-1.png"
+                        alt="dishes-1"
+                    /></span>
+                    <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                    <span
+                      ><img src="./sass/images/home/stars.png" alt="stars"
+                    /></span>
+                    <h5>$12.00</h5>
+                  </div>
+
+                  <div class="carousel_item_content">
+                    <span
+                      ><img
+                        src="./sass/images/home/dishes-2.png"
+                        alt="dishes-2"
+                    /></span>
+                    <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                    <span
+                      ><img src="./sass/images/home/stars.png" alt="stars"
+                    /></span>
+                    <h5>$12.00</h5>
+                  </div>
+
+                  <div class="carousel_item_content">
+                    <span
+                      ><img
+                        src="./sass/images/home/dishes-3.png"
+                        alt="dishes-3"
+                    /></span>
+                    <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                    <span
+                      ><img src="./sass/images/home/stars.png" alt="stars"
+                    /></span>
+                    <h5>$12.00</h5>
+                  </div>
+                  <div class="carousel_item_content">
+                    <span
+                      ><img
+                        src="./sass/images/home/dishes-4.png"
+                        alt="dishes-4"
+                    /></span>
+                    <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                    <span
+                      ><img src="./sass/images/home/stars.png" alt="stars"
+                    /></span>
+                    <h5>$12.00</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel_item_content_full">
+                  <div class="carousel_item_content">
+                    <span
+                      ><img
+                        src="./sass/images/home/dishes-1.png"
+                        alt="dishes-1"
+                    /></span>
+                    <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                    <span
+                      ><img src="./sass/images/home/stars.png" alt="stars"
+                    /></span>
+                    <h5>$12.00</h5>
+                  </div>
+
+                  <div class="carousel_item_content">
+                    <span
+                      ><img
+                        src="./sass/images/home/dishes-2.png"
+                        alt="dishes-2"
+                    /></span>
+                    <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                    <span
+                      ><img src="./sass/images/home/stars.png" alt="stars"
+                    /></span>
+                    <h5>$12.00</h5>
+                  </div>
+
+                  <div class="carousel_item_content">
+                    <span
+                      ><img
+                        src="./sass/images/home/dishes-3.png"
+                        alt="dishes-3"
+                    /></span>
+                    <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                    <span
+                      ><img src="./sass/images/home/stars.png" alt="stars"
+                    /></span>
+                    <h5>$12.00</h5>
+                  </div>
+                  <div class="carousel_item_content">
+                    <span
+                      ><img
+                        src="./sass/images/home/dishes-4.png"
+                        alt="dishes-4"
+                    /></span>
+                    <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                    <span
+                      ><img src="./sass/images/home/stars.png" alt="stars"
+                    /></span>
+                    <h5>$12.00</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu_pack container">
+        <div class="menu_pack_content">
+          <span><h1>Our Regular Menu Pack</h1> </span>
+          <div class="ap-tab">
+            <ul class="ap-tab-list">
+              <li class="ap-tab-item">
+                <a class="ap-tab-link" href="#">All</a>
+              </li>
+              <li class="ap-tab-item">
+                <a class="ap-tab-link" href="#">Shawarma</a>
+              </li>
+              <li class="ap-tab-item">
+                <a class="ap-tab-link" href="#">Turk Kebab</a>
+              </li>
+              <li class="ap-tab-item">
+                <a class="ap-tab-link" href="#">Hamburger Kebab</a>
+              </li>
+              <li class="ap-tab-item">
+                <a class="ap-tab-link" href="#">Doner kebab</a>
+              </li>
+              <li class="ap-tab-item">
+                <a class="ap-tab-link" href="#">Shish kebab</a>
+              </li>
+              <li class="ap-tab-item">
+                <a class="ap-tab-link" href="#">French fries Pizza</a>
+              </li>
+              <li class="ap-tab-item">
+                <a class="ap-tab-link" href="#">Desserts</a>
+              </li>
+            </ul>
+          </div>
+          <div class="ap-tab-container">
+            <div class="ap-tab-content">
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+            </div>
+            <div class="ap-tab-content">
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+            </div>
+            <div class="ap-tab-content">
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+            </div>
+            <div class="ap-tab-content">
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+            </div>
+            <div class="ap-tab-content">
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+            </div>
+            <div class="ap-tab-content">
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+            </div>
+            <div class="ap-tab-content">
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+            </div>
+            <div class="ap-tab-content">
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+              <div class="item_content">
+                <span
+                  ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+                /></span>
+                <h4>Barbecue Shish kebab Shashlik Skewer</h4>
+                <span
+                  ><img src="./sass/images/home/stars.png" alt="stars"
+                /></span>
+                <h5>$12.00</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="customers">
+      <div class="customer_content container">
+        <div class="customer_header">
+          <span><h4>Testimony</h4></span>
+          <span><img src="./sass/images/home/spoon.svg" alt="spoon" /></span>
+          <span><h1>Happy customers</h1></span>
+        </div>
+
+        <div class="customer_carousel container">
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <h3>Maria</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisq...</p>
+              <h5><i class="bi bi-calendar"></i> 06/02/2022 &nbsp; &nbsp; &nbsp;
+                   <i class="bi bi-clock"></i> 11:15 &nbsp;&nbsp;    <i class="bi bi-eye"></i>  222</h5>
+            </div>
+            <div class="item">
+              <h3>Maria</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisq...</p>
+              <h5><i class="bi bi-calendar"></i> 06/02/2022 &nbsp; &nbsp; &nbsp;
+                   <i class="bi bi-clock"></i> 11:15 &nbsp;&nbsp;    <i class="bi bi-eye"></i>  222</h5>
+            </div>
+            <div class="item">
+              <h3>Maria</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisq...</p>
+              <h5><i class="bi bi-calendar"></i> 06/02/2022 &nbsp; &nbsp; &nbsp;
+                   <i class="bi bi-clock"></i> 11:15 &nbsp;&nbsp;    <i class="bi bi-eye"></i>  222</h5>
+            </div>
+            <div class="item">
+              <h3>Maria</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisq...</p>
+              <h5><i class="bi bi-calendar"></i> 06/02/2022 &nbsp; &nbsp; &nbsp;
+                   <i class="bi bi-clock"></i> 11:15 &nbsp;&nbsp;    <i class="bi bi-eye"></i>  222</h5>
+            </div>
+            <div class="item">
+              <h3>Maria</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisq...</p>
+              <h5><i class="bi bi-calendar"></i> 06/02/2022 &nbsp; &nbsp; &nbsp;
+                   <i class="bi bi-clock"></i> 11:15 &nbsp;&nbsp;    <i class="bi bi-eye"></i>  222</h5>
+            </div>
+            <div class="item">
+              <h3>Maria</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisq...</p>
+              <h5><i class="bi bi-calendar"></i> 06/02/2022 &nbsp; &nbsp; &nbsp;
+                   <i class="bi bi-clock"></i> 11:15 &nbsp;&nbsp;    <i class="bi bi-eye"></i>  222</h5>
+            </div>
+        </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="updates container">
+      <div class="updates_header">
+        <h5>News</h5>
+        <span><img src="./sass/images/home/spoon-red.svg" alt="spoon red"></span>
+        <h1>Gerícht updates</h1>
+      </div>
+
+      <div class="updates_container">
+        <div class="update_content">
+          <span><img src="./sass/images/home/updates.png" alt="updates.png"></span>
+          <div class="content_text">
+            <h1>tips for prepping and caring for your grill</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+          </div>
+          <div class="content_date">
+            <div class="read">Read More</div>
+            <div class="read_date">16 Apr 2021</div>
+          </div>
+
+        </div>
+        <div class="update_content">
+          <span><img src="./sass/images/home/updates.png" alt="updates.png"></span>
+          <div class="content_text">
+            <h1>tips for prepping and caring for your grill</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+          </div>
+          <div class="content_date">
+            <div class="read">Read More</div>
+            <div class="read_date">16 Apr 2021</div>
+          </div>
+
+        </div>
+        <div class="update_content">
+          <span><img src="./sass/images/home/updates.png" alt="updates.png"></span>
+          <div class="content_text">
+            <h1>tips for prepping and caring for your grill</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mus in.</p>
+          </div>
+          <div class="content_date">
+            <div class="read">Read More</div>
+            <div class="read_date">16 Apr 2021</div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="btn">
+        <a href="#">View More</a>
+      </div>
+
+    </section>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/abdulazizcreator/ap-tab/main.js"></script>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

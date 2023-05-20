@@ -1,0 +1,7 @@
+@use "../utils/function" as func;
+
+.container {
+    max-width: func.container(1920, 310, 20) !important;
+    margin: 0 auto !important;
+    padding: 0px 20px;
+}

@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+  --bgColor-red: #bb2339;
+  --bgColor-grey-1: #f8f8f8;
+  --bgColor-grey-2: #f4f4f4;
+  --text-color: #ffffff;
+  --p-black:#242424;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

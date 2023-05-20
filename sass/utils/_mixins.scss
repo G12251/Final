@@ -1,0 +1,53 @@
+@use "variables" as var;
+@mixin title($weight, $size, $height, $Letter_spacing) {
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $height;
+  text-transform: capitalize;
+  font-family: "Open Sans";
+  font-style: normal;
+}
+
+@mixin title-1 {
+  @include title(600, var.$fonts54, 74px);
+}
+
+@mixin title-2 {
+  @include title(600, var.$fonts48, 64px);
+}
+
+@mixin title-3 {
+  @include title(600, var.$fonts38, 56px);
+}
+
+@mixin title-4 {
+  @include title(500, var.$fonts36, 56px);
+}
+
+@mixin title-5 {
+  @include title(500, var.$fonts24, 48px);
+}
+
+@mixin title-6 {
+  @include title(500, var.$fonts18, 36px);
+}
+
+@mixin card-bg($color) {
+  background-color: $color;
+}
+
+@mixin df($jc, $ai, $fd) {
+  display: flex;
+  justify-content: $jc;
+  align-items: $ai;
+  flex-direction: $fd;
+}
+
+@mixin dg($gtc, $cg) {
+  display: grid;
+  align-items: center;
+  grid-template-columns: $gtc;
+  column-gap: $cg;
+}
+
+
