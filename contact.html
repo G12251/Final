@@ -15,66 +15,71 @@
 
     <link rel="stylesheet" href="./css/contact.min.css">
   </head>
-  <body>
+  <body onload="myFunction()" style="margin:0;" >
+    <div id="loader">
+      <div class="flower"></div>
+    </div> 
+
+    <div style="display:none;" id="myDiv" class="animate-bottom">
     <nav class="navbar navbar-expand-md fixed-top navigator">
-        <div class="container">
-          <a class="navbar-brand" href="#"
-            ><img src="./sass/images/home/logo.svg" alt="logo-1"
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="offcanvas offcanvas-end"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                <img src="./sass/images/home/logo.svg" alt="logo " />
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul
-                class="navbar-nav justify-content-end flex-grow-1 pe-3 nav_content"
-              >
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Menu</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">News</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact Us</a>
-                </li>
-                <li class="nav-item login_btn">
-                  <a class="nav-link" href="#">Log in</a>
-                </li>
-              </ul>
-            </div>
+      <div class="container">
+        <a class="navbar-brand" href="./index.html"
+          ><img src="./sass/images/home/logo.svg" alt="logo-1"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              <img src="./sass/images/home/logo.svg" alt="logo " />
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul
+              class="navbar-nav justify-content-end flex-grow-1 pe-3 nav_content"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item login_btn">
+                <a class="nav-link" href="./contact.html">Log in</a>
+              </li>
+            </ul>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
 
-    <section class="contact py-5 mt-5 container">
-        <div class="content-header text-center mx-3">
+    <section class="contact py-5 mt-5 container ">
+        <div class="content-header text-center mx-3 first">
           <h1>Contact Us</h1>
           <img class="spoon" src="./sass/images/home/spoon-red.svg" alt="" />
         </div>
@@ -201,7 +206,7 @@
             </button>
           </div>
         </div>
-      </div>
+      
     </section>
 
     <section id="update" class="location last">
@@ -262,6 +267,7 @@
   
         </section>
       </footer>
+    </div>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/main.js"></script>
   </body>

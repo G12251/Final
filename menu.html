@@ -14,10 +14,14 @@
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   </head>
-  <body>
+  <body onload="myFunction()" style="margin:0;" >
+    <div id="loader">
+      <div class="flower"></div>
+    </div> 
+    <div style="display:none;" id="myDiv" class="animate-bottom">
     <nav class="navbar navbar-expand-md fixed-top navigator">
       <div class="container">
-        <a class="navbar-brand" href="#"
+        <a class="navbar-brand" href="./index.html"
           ><img src="./sass/images/home/logo.svg" alt="logo-1"
         /></a>
         <button
@@ -52,7 +56,7 @@
               class="navbar-nav justify-content-end flex-grow-1 pe-3 nav_content"
             >
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Menu</a>
+                <a class="nav-link active" aria-current="page" href="./menu.html">Menu</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">News</a>
@@ -61,10 +65,10 @@
                 <a class="nav-link" href="#">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="./contact.html">Contact Us</a>
               </li>
               <li class="nav-item login_btn">
-                <a class="nav-link" href="#">Log in</a>
+                <a class="nav-link" href="./contact.html">Log in</a>
               </li>
             </ul>
           </div>
@@ -272,7 +276,7 @@
 
       </section>
     </footer>
-
+  </div>
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/abdulazizcreator/ap-tab/main.js"></script>

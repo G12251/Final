@@ -51,6 +51,10 @@ button {
   opacity: 0.7;
 }
 
+.first {
+  padding-top: 70px;
+}
+
 .last {
-  padding-bottom: 130px;
+  padding-bottom: 10px;
 }

@@ -1,3 +1,17 @@
+
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 2000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+
+
+
 $(document).ready(function () {
   $(".prev-button").click(function () {
     $("#myCarousel").carousel("prev");
@@ -24,4 +38,6 @@ $(".owl-carousel").owlCarousel({
     },
   },
 });
+
+
 

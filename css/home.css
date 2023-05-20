@@ -40,6 +40,73 @@ button {
   padding: 0px 20px;
 }
 
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+}
+
+.flower {
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle at center, #ff4081, #ff8f00);
+  border-radius: 50%;
+  position: relative;
+  animation: rotate 2s infinite linear;
+}
+
+.flower::before,
+.flower::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle at center, #3f51b5, #e91e63);
+  border-radius: 50%;
+}
+
+.flower::before {
+  top: -50px;
+}
+
+.flower::after {
+  top: 50px;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+#myDiv {
+  display: none;
+}
+
 .navigator {
   background-color: var(--bgColor-red);
   padding-top: 39px;
@@ -51,6 +118,10 @@ button {
 }
 .navigator .navbar-toggler {
   background-color: rgba(253, 80, 80, 0.97);
+}
+.navigator .navbar-toggler .navbar-toggler-icon {
+  background-repeat: no-repeat;
+  background-image: var(--bs-navbar-toggler-icon-bg);
 }
 .navigator .nav_content {
   display: flex;
