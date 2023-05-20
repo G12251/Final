@@ -36,12 +36,11 @@
   background-color: $color;
 }
 
-@mixin df($jc, $ai, $fd, $fw) {
+@mixin df($jc, $ai, $fd) {
   display: flex;
   justify-content: $jc;
   align-items: $ai;
   flex-direction: $fd;
-  flex-wrap: $fw;
 }
 
 @mixin dg($gtc, $cg) {
