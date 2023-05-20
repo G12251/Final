@@ -351,10 +351,176 @@
       color: var(--p-black);
       transition: 0.5s;
     }
-    a:hover{
+    a:hover {
       background-color: palevioletred;
       text-decoration: none;
       font-size: larger;
+    }
+  }
+}
+
+.video {
+  padding-bottom: 120px;
+  .container {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.photo_gallery {
+  background-color: var(--bgColor-grey-1);
+  padding: 130px 0;
+  .galery_content {
+    @include mini.dg(35% 65%, 64px);
+    &_left {
+      padding-left: 30px;
+      h5 {
+        @include mini.title(700, 30px, 28px, 0.04rem);
+        font-family: "Cera Round Pro";
+        color: var(--p-black);
+      }
+      h1 {
+        @include mini.title(500, 48px, 62px, 0.03rem);
+        font-family: "Cera Round Pro";
+        color: var(--p-black);
+      }
+      p {
+        padding-top: 24px;
+        padding-bottom: 24px;
+        @include mini.title(400, 16px, 28px, 0.04rem);
+        color: #aaaaaa;
+      }
+      a {
+        @include mini.title(700, 16px, 28px, 0.04rem);
+        text-align: center;
+        font-family: "Cera Round Pro";
+        border: 1px solid #bb2339;
+        border-radius: 100px;
+        padding: 8px 32px;
+        color: var(--p-black);
+        transition: 0.5s;
+      }
+      a:hover {
+        background-color: palevioletred;
+        text-decoration: none;
+        font-size: larger;
+      }
+
+      &_right {
+        .carousel-item {
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+          img {
+            display: flex;
+            width: 100%;
+          }
+          .hover {
+            display: none;
+          }
+
+          .galery_content:hover {
+            .hover {
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.footer_box {
+  @include mini.df(center, center, column);
+  background: var(--bgColor-red);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 22px 30px 95px 1px rgba(86, 86, 86, 0.2);
+  border-radius: 20px;
+  padding: 64px 252px;
+  transform: translateY(50%);
+  h5{
+    @include mini.title(700, 23px, 23px, 0.04em);
+      font-family: "Cera Round Pro";
+      color: var(--text-color);
+      padding-bottom: 25px;
+  }
+  h1{
+    @include mini.title(500, 48px, 62px, 0.03em);
+      font-family: "Cera Round Pro";
+      color: var(--text-color);
+      padding-bottom: 23px;
+  }
+  p{
+    @include mini.title(400, 16px, 28px, 0.04em);
+    color: var(--text-color);
+  }
+
+  .email {
+    @include mini.df(center, center, row);
+    padding-top: 64px;
+    max-width: 650px;
+    width: 100%;
+    gap: 32px;
+
+    input {
+      border: 1px solid rgba(245, 239, 219, 0.5);
+      border-radius: 100px;
+      height: 52px;
+      @include mini.title(500, 16px, 28px, 0.04em);
+      font-family: "Cera Round Pro";
+      font-feature-settings: "tnum" on, "lnum" on;
+
+      background-color: transparent;
+      background: var(--bgColor-red);
+    }
+
+    button {
+      font-family: "Cera Round Pro";
+      font-feature-settings: "tnum" on, "lnum" on;
+      color: var(--text-color);
+      background: transparent;
+      border: 1px solid #ffffff;
+      border-radius: 100px;
+      padding: 12px 32px;
+    }
+  }
+}
+.footer_down {
+  background-color: var(--bgColor-red);
+  padding-top: 317px;
+  padding-bottom: 150px;
+
+  .footer_content{
+    @include mini.dg(1fr 1fr 1fr, 123px);
+
+    h1{
+      @include mini.title(400, 32px, 42px, 0.04em);
+      font-family: "Cera Round Pro";
+      font-feature-settings: "tnum" on, "lnum" on;
+      color: var(--text-color);
+      text-align: center;
+      padding-bottom: 24px;
+
+    }
+
+    p{@include mini.title(400, 16px, 26px, 0.04em);
+      color: var(--text-color);
+      text-align: center;
+    }
+
+    .middle{
+      text-align: center;
+      img{
+        padding-bottom: 32px;
+      }
+      p{
+        padding-bottom: 45px;
+      }
+      i{
+        color: #ffffff;
+        fill: #ffffff;
+        padding: 5px;
+      }
     }
   }
 }
