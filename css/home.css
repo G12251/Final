@@ -253,6 +253,10 @@ button {
   align-items: center;
   flex-direction: none;
   gap: 10px;
+  flex-wrap: wrap;
+}
+.menu_pack_content .ap-tab-list .ap-tab-list {
+  flex-wrap: wrap;
 }
 .menu_pack_content .ap-tab-list .ap-tab-link {
   width: 100%;
@@ -475,6 +479,9 @@ button {
   border: 1px solid rgba(36, 36, 36, 0.1);
   border-radius: 14px;
   transition: 0.5s;
+}
+.updates .updates_container .update_content img {
+  width: 100%;
 }
 .updates .updates_container .update_content .content_text {
   padding: 20px 40px 20px 20px;
