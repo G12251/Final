@@ -165,7 +165,7 @@
       @include mini.df(center, center, none);
       gap: 10px;
       flex-wrap: wrap;
-      .ap-tab-list{
+      .ap-tab-list {
         flex-wrap: wrap;
       }
       .ap-tab-link {
@@ -310,7 +310,7 @@
       border: 1px solid rgba(36, 36, 36, 0.1);
       border-radius: 14px;
       transition: 0.5s;
-      img{
+      img {
         width: 100%;
       }
       .content_text {
@@ -379,7 +379,7 @@
   background-color: var(--bgColor-grey-1);
   padding: 130px 0;
   .galery_content {
-    @include mini.dg(35% 65%, 64px);
+    @include mini.dg(35% 65%, 0);
     &_left {
       padding-left: 30px;
       h5 {
@@ -432,6 +432,8 @@
               display: block;
             }
           }
+
+         
         }
       }
     }
@@ -445,19 +447,19 @@
   border-radius: 20px;
   padding: 64px 252px;
   transform: translateY(50%);
-  h5{
+  h5 {
     @include mini.title(700, 23px, 23px, 0.04em);
-      font-family: "Cera Round Pro";
-      color: var(--text-color);
-      padding-bottom: 25px;
+    font-family: "Cera Round Pro";
+    color: var(--text-color);
+    padding-bottom: 25px;
   }
-  h1{
+  h1 {
     @include mini.title(500, 48px, 62px, 0.03em);
-      font-family: "Cera Round Pro";
-      color: var(--text-color);
-      padding-bottom: 23px;
+    font-family: "Cera Round Pro";
+    color: var(--text-color);
+    padding-bottom: 23px;
   }
-  p{
+  p {
     @include mini.title(400, 16px, 28px, 0.04em);
     color: var(--text-color);
   }
@@ -497,33 +499,33 @@
   padding-top: 317px;
   padding-bottom: 150px;
 
-  .footer_content{
+  .footer_content {
     @include mini.dg(1fr 1fr 1fr, 123px);
 
-    h1{
+    h1 {
       @include mini.title(400, 32px, 42px, 0.04em);
       font-family: "Cera Round Pro";
       font-feature-settings: "tnum" on, "lnum" on;
       color: var(--text-color);
       text-align: center;
       padding-bottom: 24px;
-
     }
 
-    p{@include mini.title(400, 16px, 26px, 0.04em);
+    p {
+      @include mini.title(400, 16px, 26px, 0.04em);
       color: var(--text-color);
       text-align: center;
     }
 
-    .middle{
+    .middle {
       text-align: center;
-      img{
+      img {
         padding-bottom: 32px;
       }
-      p{
+      p {
         padding-bottom: 45px;
       }
-      i{
+      i {
         color: #ffffff;
         fill: #ffffff;
         padding: 5px;

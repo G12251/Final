@@ -41,7 +41,7 @@ button {
 }
 
 .menu_container {
-  padding-top: 70px;
+  padding-top: 170px;
   display: grid;
   align-items: center;
   grid-template-columns: 0.5fr 1fr;
@@ -84,6 +84,11 @@ button {
   border: 1px solid #ffffff;
   border-radius: 100px;
   padding: 10px 30px;
+}
+.menu_container .ap-tab .ap-tab-list .ap-tab-link:hover {
+  background-color: var(--text-color);
+  color: var(--p-black);
+  text-decoration: none;
 }
 .menu_container .ap-tab-container .ap-tab-content.active-tab {
   display: grid !important;

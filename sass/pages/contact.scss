@@ -1,0 +1,23 @@
+@use "../utils/variables" as var;
+@use "../global";
+@use "../utils/mixins" as mini;
+
+
+* {
+  p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    color: #242424;
+
+    opacity: 0.7;
+  }
+}
+
+.last{
+    padding-bottom: 130px;
+}

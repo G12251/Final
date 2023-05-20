@@ -29,7 +29,7 @@
 }
 
 .menu_container {
-  padding-top: 70px;
+  padding-top: 170px;
   @include mini.dg(0.5fr 1fr, 35px);
   align-items: flex-start;
 
@@ -66,6 +66,12 @@
         border-radius: 100px;
         padding: 10px 30px;
       }
+      .ap-tab-link:hover{
+        background-color: var(--text-color);
+        color: var(--p-black);
+        text-decoration: none;
+      }
+
     }
   }
   .ap-tab-container {

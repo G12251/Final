@@ -6,26 +6,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Restaurant</title>
     <link rel="stylesheet" href="./css/menu.min.css" />
+    <link rel="stylesheet" href="./css/home.min.css">
     <link rel="stylesheet" href="./sass/bootstrap/bootstrap.min.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   </head>
   <body>
+    <nav class="navbar navbar-expand-md fixed-top navigator">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="./sass/images/home/logo.svg" alt="logo-1"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              <img src="./sass/images/home/logo.svg" alt="logo " />
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul
+              class="navbar-nav justify-content-end flex-grow-1 pe-3 nav_content"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item login_btn">
+                <a class="nav-link" href="#">Log in</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
     <main class="container">
+
       <div class="menu_container">
         <div class="ap-tab">
           <h1>Our Regular Menu Pack</h1>
           <ul class="ap-tab-list">
             <li class="ap-tab-item">
-              <a class="ap-tab-link" href="#">Tab 1</a>
+              <a class="ap-tab-link" href="#">All</a>
             </li>
             <li class="ap-tab-item">
-              <a class="ap-tab-link" href="#">Tab 2</a>
+              <a class="ap-tab-link" href="#">KEBABS</a>
             </li>
             <li class="ap-tab-item">
-              <a class="ap-tab-link" href="#">Tab 3</a>
+              <a class="ap-tab-link" href="#">PIDES</a>
+            </li>
+            <li class="ap-tab-item">
+              <a class="ap-tab-link" href="#">BURGERS</a>
+            </li>
+            <li class="ap-tab-item">
+              <a class="ap-tab-link" href="#">OTHER DISHES</a>
+            </li>
+            <li class="ap-tab-item">
+              <a class="ap-tab-link" href="#">SIDES</a>
+            </li>
+            <li class="ap-tab-item">
+              <a class="ap-tab-link" href="#">DRINKS</a>
+            </li>
+            <li class="ap-tab-item">
+              <a class="ap-tab-link" href="#">DESSERTS</a>
+            </li>
+            <li class="ap-tab-item">
+              <a class="ap-tab-link" href="#">MEAL DEALS</a>
             </li>
           </ul>
         </div>
@@ -69,16 +147,132 @@
               </div>
           </div>
           <div class="ap-tab-content">
-            2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-            quae a dolor.
+            <div class="item_content">
+              <span
+                ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+              /></span>
+              <h4>Barbecue Shish kebab Shashlik <br> Skewer</h4>
+              <h5>$12.00</h5>
+            </div>
+            <div class="item_content">
+              <span
+                ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+              /></span>
+              <h4>Barbecue Shish kebab Shashlik <br> Skewer</h4>
+              <h5>$12.00</h5>
+            </div>
+            <div class="item_content">
+              <span
+                ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+              /></span>
+              <h4>Barbecue Shish kebab Shashlik <br> Skewer</h4>
+              <h5>$12.00</h5>
+            </div>
+            <div class="item_content">
+              <span
+                ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+              /></span>
+              <h4>Barbecue Shish kebab Shashlik <br> Skewer</h4>
+              <h5>$12.00</h5>
+            </div>
           </div>
           <div class="ap-tab-content">
-            3 Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Aspernatur ipsam at vel veritatis.
+            <div class="item_content">
+              <span
+                ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+              /></span>
+              <h4>Barbecue Shish kebab Shashlik <br> Skewer</h4>
+              <h5>$12.00</h5>
+            </div>
+            <div class="item_content">
+              <span
+                ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+              /></span>
+              <h4>Barbecue Shish kebab Shashlik <br> Skewer</h4>
+              <h5>$12.00</h5>
+            </div>
+            <div class="item_content">
+              <span
+                ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+              /></span>
+              <h4>Barbecue Shish kebab Shashlik <br> Skewer</h4>
+              <h5>$12.00</h5>
+            </div>
+            <div class="item_content">
+              <span
+                ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+              /></span>
+              <h4>Barbecue Shish kebab Shashlik <br> Skewer</h4>
+              <h5>$12.00</h5>
+            </div>
+            <div class="item_content">
+              <span
+                ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+              /></span>
+              <h4>Barbecue Shish kebab Shashlik <br> Skewer</h4>
+              <h5>$12.00</h5>
+            </div>
+            <div class="item_content">
+              <span
+                ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+              /></span>
+              <h4>Barbecue Shish kebab Shashlik <br> Skewer</h4>
+              <h5>$12.00</h5>
+            </div>
+            <div class="item_content">
+              <span
+                ><img src="./sass/images/home/dishes-4.png" alt="dishes-4"
+              /></span>
+              <h4>Barbecue Shish kebab Shashlik <br> Skewer</h4>
+              <h5>$12.00</h5>
+            </div>
           </div>
         </div>
       </div>
     </main>
+
+    <footer>
+      <section class="footer_up container">
+        <div class="footer_box">
+          <h5>Newsletter</h5>
+          <h1>Subscribe to Our Newsletter</h1>
+          <p>And never miss latest Updates!</p>
+          <div class="email">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address">
+            <button type="submit"> Subscribe</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="footer_down ">
+        <div class="footer_content container">
+          <div class="left">
+            <h1>Contact Us</h1>
+            <p>9 W 53rd St, London, NY 10019, UK</p>
+            <p>+1 212-344-1230 <br>
+              +1 212-555-1230</p>
+
+          </div>
+        <div class="middle">
+          <img src="./sass/images/home/logo-3.svg" alt="logo">
+          <p>"The best way to find yourself is to lose yourself in
+             the service of others.”</p>
+             <span><i class="bi bi-facebook"></i> <i class="bi bi-twitter"></i> <i class="bi bi-instagram"></i> </span>
+          
+        </div>
+      <div class="right">
+        <h1>Working Hours</h1>
+        <p>Monday-Friday: br
+          08:00 am -12:00 am</p>
+          <p>Saturday-Sunday: <br>
+            07:00am -11:00 pm</p>
+
+      </div>  
+      </div>
+
+      </section>
+    </footer>
+
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="./js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/abdulazizcreator/ap-tab/main.js"></script>

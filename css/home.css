@@ -578,8 +578,8 @@ button {
   display: grid;
   align-items: center;
   grid-template-columns: 35% 65%;
-  -moz-column-gap: 64px;
-       column-gap: 64px;
+  -moz-column-gap: 0;
+       column-gap: 0;
 }
 .photo_gallery .galery_content_left {
   padding-left: 30px;
